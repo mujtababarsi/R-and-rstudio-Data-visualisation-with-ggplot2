@@ -28,3 +28,6 @@ ggplot(data=iris,aes(x=Sepal.Length, y = Petal.Length)) +
 
 ggplot(data=iris, aes(x=Sepal.Length,fill=Species)) + 
   geom_histogram() # histogram plotting colours by species
+ggplot(data=iris,aes(x=Sepal.Length,fill=Species)) + 
+  geom_histogram(binwidth = 0.05) # histogram bindwidth = 0.05
+
