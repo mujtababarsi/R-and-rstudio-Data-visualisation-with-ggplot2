@@ -75,3 +75,12 @@ new_iris + scale_color_tron() + scale_fill_tron() +
 new_iris2 <- ggplot(data = iris) + geom_point(aes(x = Petal.Length, y = Petal.Width, color = Species)) + facet_wrap(~Species) + scale_color_tron() + scale_fill_tron()
 new_iris2 + coord_fixed(ratio = 2) # fix ratio from x to y axis
 new_iris2 + coord_trans(x = "log2", y = "log2") # logarithmic transformation
+new_iris2 + coord_flip() # swap x-axis values to y_axis 
+
+# Setting Labels
+new_iris + scale_color_tron() + scale_fill_tron() + 
+  labs(color = "Iris_Species", x = "Sepal Length values", 
+       y = "Petal Length values")
+new_iris + scale_color_tron() + scale_fill_tron() + 
+  labs(color = "Iris_Species", x = "Sepal Length values", 
+       y = "Petal Length values") + ggtitle("Petal vs. Sepal Legnth")
