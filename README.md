@@ -27,11 +27,3 @@ This project demonstrates the power of ggplot2 to create layered graphics. It co
     dplyr / tidyr: For data cleaning and preparation.
 
     tidyverse: The core ecosystem used throughout the project.
-
-📂 **Project Structure**
-Plaintext
-
-├── data/               # Raw datasets (CSV, Excel, etc.)
-├── scripts/            # R scripts (.R) and RMarkdown files (.Rmd)
-├── plots/              # Exported visualisations (PNG, PDF)
-└── README.md           # Project documentation
