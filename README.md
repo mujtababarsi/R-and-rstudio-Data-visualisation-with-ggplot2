@@ -8,7 +8,7 @@ This project demonstrates the power of ggplot2 to create layered graphics. It co
 
 📊 **Key Visualisations Included**
 
-    **Distribution** : Histograms, Density Plots, and Boxplots.
+    Distribution: Histograms, Density Plots, and Boxplots.
 
     Correlation: Scatter plots with regression lines (geom_smooth).
 
@@ -20,7 +20,7 @@ This project demonstrates the power of ggplot2 to create layered graphics. It co
 
 🛠️ **Tools & Libraries**
 
-    **R/RStudio** : The primary environment.
+    R/RStudio: The primary environment.
 
     ggplot2: For building the visualisations.
 
@@ -28,7 +28,7 @@ This project demonstrates the power of ggplot2 to create layered graphics. It co
 
     tidyverse: The core ecosystem used throughout the project.
 
-📂 Project Structure
+📂 **Project Structure**
 Plaintext
 
 ├── data/               # Raw datasets (CSV, Excel, etc.)
