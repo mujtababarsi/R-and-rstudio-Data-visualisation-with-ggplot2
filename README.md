@@ -1,13 +1,14 @@
-This README is designed for a project focused on mastering data visualisation using R and the ggplot2 package. Since many GitHub repositories with this name typically include script files, datasets, and plots, I have structured this to be comprehensive.
-R & RStudio: Data Visualisation with ggplot2
+**R & RStudio: Data Visualisation with ggplot2**
 
 A comprehensive collection of R scripts and projects focused on the Grammar of Graphics. This repository explores how to transform raw data into insightful, publication-quality visualizations using RStudio and the ggplot2 library.
-🚀 Overview
+
+🚀 **Overview**
 
 This project demonstrates the power of ggplot2 to create layered graphics. It covers everything from basic scatter plots to advanced faceting and theme customisation. The goal is to provide a clear workflow for exploratory data analysis (EDA) and data storytelling.
-📊 Key Visualisations Included
 
-    Distribution: Histograms, Density Plots, and Boxplots.
+📊 **Key Visualisations Included**
+
+    **Distribution** : Histograms, Density Plots, and Boxplots.
 
     Correlation: Scatter plots with regression lines (geom_smooth).
 
@@ -17,9 +18,9 @@ This project demonstrates the power of ggplot2 to create layered graphics. It co
 
     Complex Layouts: Using facet_wrap and facet_grid to compare subsets of data.
 
-🛠️ Tools & Libraries
+🛠️ **Tools & Libraries**
 
-    R / RStudio: The primary environment.
+    **R/RStudio** : The primary environment.
 
     ggplot2: For building the visualisations.
 
